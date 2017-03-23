@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name"></string>
-    <string name="saludar">Mostrar</string>
+    <string name="mostrar">Mostrar</string>
     <string name="error1">Por favor digite el Primer Nombre</string>
     <string name="nombre">Primer Nombre</string>
     <string name="primerapellido">Primer Apellido</string>
@@ -11,7 +11,7 @@
     <string name="error5">Por favor digite la Edad </string>
     <string name="saludo3">y tu sexo es </string>
     <string name="error6">Por favor digite el Sexo</string>
-    <string name="titulo">Registro de personas</string>
+    <string name="registro">Registro de personas</string>
     <string name="edad">Edad</string>
     <string name="sexo">Sexo</string>
     <string name="bienvenido">Bienvenido</string>

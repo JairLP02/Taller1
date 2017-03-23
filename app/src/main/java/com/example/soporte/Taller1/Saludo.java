@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 public class Saludo extends AppCompatActivity {
 
-    private TextView saludo;
+    private TextView mostrar;
     private Bundle b;
     private String nomb1, nomb2, apell1, apell2, edad, sexo,aux;
     private Resources res;
@@ -17,7 +17,7 @@ public class Saludo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_saludo);
 
-        saludo = (TextView)findViewById(R.id.txtSaludo);
+        mostrar = (TextView)findViewById(R.id.txtSaludo);
         b = getIntent().getExtras();
         nomb1 = b.getString("Nombre1");
         nomb2 = b.getString("Nombre2");
@@ -29,7 +29,7 @@ public class Saludo extends AppCompatActivity {
         res = this.getResources();
 
         aux = res.getString(R.string.saludo)+" "+nomb1+" "+nomb2+" "+apell1+" "+apell2+" "+res.getString(R.string.saludo2)+" "+edad+" "+res.getString(R.string.saludo3)+" "+sexo;
-        saludo.setText(aux);
+        mostrar.setText(aux);
 
     }
 }

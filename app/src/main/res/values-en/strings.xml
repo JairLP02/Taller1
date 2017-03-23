@@ -3,9 +3,9 @@
     <string name="saludo">Hello</string>
     <string name="error6">Please  your sex</string>
     <string name="saludo3">and sex is</string>
-    <string name="saludar">To show</string>
+    <string name="mostrar">To show</string>
     <string name="primerapellido">Lastname</string>
-    <string name="titulo">Registration of peoples</string>
+    <string name="registro">Registration of peoples</string>
     <string name="error5">Please  your age</string>
     <string name="error4">Please  your Second surname</string>
     <string name="saludo2">you age is</string>
