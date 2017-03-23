@@ -1,4 +1,4 @@
-package com.example.soporte.holamundo;
+package com.example.soporte.Taller1;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

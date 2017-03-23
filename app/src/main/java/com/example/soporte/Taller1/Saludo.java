@@ -1,4 +1,4 @@
-package com.example.soporte.holamundo;
+package com.example.soporte.Taller1;
 
 import android.content.res.Resources;
 import android.support.v7.app.AppCompatActivity;
@@ -19,8 +19,8 @@ public class Saludo extends AppCompatActivity {
 
         saludo = (TextView)findViewById(R.id.txtSaludo);
         b = getIntent().getExtras();
-        nomb1 = b.getString("Nombre");
-        nomb2 = b.getString("Apellido");
+        nomb1 = b.getString("Nombre1");
+        nomb2 = b.getString("Nombre2");
         apell1 = b.getString("Apellido1");
         apell2 = b.getString("Apellido2");
         edad = b.getString("Edad");
@@ -28,7 +28,7 @@ public class Saludo extends AppCompatActivity {
 
         res = this.getResources();
 
-        aux = res.getString(R.string.parte_saludo)+" "+nomb1+" "+nomb2+" "+apell1+" "+apell2+" "+res.getString(R.string.parte_saludo2)+" "+edad+" "+res.getString(R.string.parte_saludo3)+" "+sexo;
+        aux = res.getString(R.string.saludo)+" "+nomb1+" "+nomb2+" "+apell1+" "+apell2+" "+res.getString(R.string.saludo2)+" "+edad+" "+res.getString(R.string.saludo3)+" "+sexo;
         saludo.setText(aux);
 
     }

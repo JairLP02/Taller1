@@ -1,4 +1,4 @@
-package com.example.soporte.holamundo;
+package com.example.soporte.Taller1;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -66,27 +66,27 @@ public class Principal extends AppCompatActivity {
 
     public boolean validar(){
         if(cajaNombre1.getText().toString().isEmpty()){
-           cajaNombre1.setError(getResources().getString(R.string.error_1));
+           cajaNombre1.setError(getResources().getString(R.string.error1));
             return false;
         }
        if (cajaNombre2.getText().toString().isEmpty()){
-           cajaNombre2.setError(getResources().getString(R.string.error_2));
+           cajaNombre2.setError(getResources().getString(R.string.error2));
           return false;
         }
         if(cajaApellido1.getText().toString().isEmpty()){
-            cajaApellido1.setError(getResources().getString(R.string.error_3));
+            cajaApellido1.setError(getResources().getString(R.string.error3));
             return false;
         }
         if (cajaApellido2.getText().toString().isEmpty()){
-            cajaApellido2.setError(getResources().getString(R.string.error_4));
+            cajaApellido2.setError(getResources().getString(R.string.error4));
             return false;
         }
         if(cajaEdad.getText().toString().isEmpty()){
-            cajaEdad.setError(getResources().getString(R.string.error_5));
+            cajaEdad.setError(getResources().getString(R.string.error5));
             return false;
         }
         if(cajaSexo.getText().toString().isEmpty()){
-            cajaEdad.setError(getResources().getString(R.string.error_6));
+            cajaEdad.setError(getResources().getString(R.string.error6));
             return false;
         }
         return true;

@@ -1,4 +1,4 @@
-package com.example.soporte.holamundo;
+package com.example.soporte.Taller1;
 
 import org.junit.Test;
 
